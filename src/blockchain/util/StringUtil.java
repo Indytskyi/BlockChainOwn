@@ -1,7 +1,7 @@
-package blockchain;
+package blockchain.util;
 
 import java.security.MessageDigest;
-class StringUtil {
+public class StringUtil {
     /* Applies Sha256 to a string and returns a hash. */
     public static String applySha256(String input){
         try {

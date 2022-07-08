@@ -1,7 +1,9 @@
-package blockchain;
+package blockchain.util;
 
 import java.io.*;
 
+
+// This class made as an example for further use
 public class SerializationUtil {
 
     public static void serialize(Object obj, String fileName) throws IOException {
